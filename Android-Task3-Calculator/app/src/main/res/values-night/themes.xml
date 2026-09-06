@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6366F1</item>
+        <item name="android:statusBarColor">#0F172A</item>
+    </style>
+
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6366F1</item>
+    </style>
+
+    <!-- Number Buttons Style -->
+    <style name="CalcNumBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#F8FAFC</item>
+        <item name="backgroundTint">#1E293B</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <!-- Operator Buttons Style -->
+    <style name="CalcOpBtn" parent="CalcNumBtn">
+        <item name="android:textColor">#818CF8</item>
+        <item name="backgroundTint">#312E81</item>
+    </style>
+
+    <!-- Action/Clear Buttons Style -->
+    <style name="CalcActionBtn" parent="CalcNumBtn">
+        <item name="android:textColor">#F87171</item>
+        <item name="backgroundTint">#450A0A</item>
+    </style>
+</resources>
